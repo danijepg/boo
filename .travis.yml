@@ -37,4 +37,3 @@ deploy:
   skip_cleanup: true
   on:
     repo: danijepg/boo
-    tags: true
