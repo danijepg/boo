@@ -29,11 +29,11 @@ after_success:
  - cp -r build boo-latest
  - zip boo-latest.zip boo-latest/*
  - mono --debug build/booi.exe scripts/github-release.boo -- unstable boo-latest.zip
-
-# Notify development list when needed
-notifications:
- recipients:
-   - boolang@googlegroups.com
- email:
-   on_success: change
-   on_failure: always
+ 
+deploy:
+  provider: releases
+  api_key: "dd46d06bd65e992474183ff2c17f1c5512b09615"
+  file: "boo-latest.zip"
+  skip_cleanup: true
+  on:
+    tags: true
