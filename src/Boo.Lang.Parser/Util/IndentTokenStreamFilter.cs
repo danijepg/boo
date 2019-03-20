@@ -178,6 +178,7 @@ namespace Boo.Lang.Parser.Util
 				string lastLine = lines[lines.Length-1];
 
 				// Protect against mixed indentation issues
+				/*
 				if (String.Empty != lastLine) {
 					if (null == _expectedIndent) {
 						_expectedIndent = lastLine.Substring(0, 1);
@@ -202,7 +203,7 @@ namespace Boo.Lang.Parser.Util
 						);
 					}
 				}
-
+				*/
 				if (lastLine.Length > CurrentIndentLevel)
 				{
 					EnqueueIndent(token);
