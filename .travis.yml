@@ -36,5 +36,5 @@ deploy:
   file: "boo-latest.zip"
   skip_cleanup: true
   on:
-    repo: https://github.com/danijepg/boo
+    repo: danijepg/boo
     tags: true
