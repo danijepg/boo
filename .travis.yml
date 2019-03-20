@@ -32,7 +32,7 @@ after_success:
  
 deploy:
   provider: releases
-  api_key: "dd46d06bd65e992474183ff2c17f1c5512b09615"
+  api_key: "E/UvPtj7htSsc+WSSyLDMB2jeXuuD3ZEqbsp9/M7PszCVqN8Cbs6GaP+u4O4q/+VFlGhOjYmehfd7NGmCPgFlxKnb21u6vzqbCWngoKNv6PvwtXwYmgsuV/IO/D+JraF1qpMkX+FsQwaqhubP3Am3UCx0l1PeYoOPWjxivjZg0szDuZXHIMXVkHpBwh/HJWEkzy5O7Smwy+gsQQKjBB127obqfXUNc/hiUTNLd9N6ToIgTitvrlWlvGILVlLdNsx1Je7GR2wYBbG0u4jG1yFRU8nSCtC+fIDtMGrpxhws6hhvH7ShDgAYlLfbVFUvt+3bZVO+30/QyBJ+myzE+cPxLge3RhDvXsaWEslLiwqTEpny4+0YrCbaWTv2APPycDlfqyDhINpZgOOoTypB+UDF1cuMOWyxjShBROeEgb3HQp74eUg7pkeEN6935DSvFt4YuRRlS6nS9fNctPWJxAZh0WacN7UDl+CkkOo9UFS2yMXG5pUjB04l/KNiZddrOcO6ap0TOm2y/vtk2bpsJzoK/a0GOWQl4eQCt4Bd74/hkRU7j4moffe+JTQw1KTHzCi+Qjjc2AFSikCns73WL7vtj6k6HFVGjOwYhhvT/sVa7atJN0p+3S3jq7t/x56UEj4QS3aWQFSpHRQHfqg+ptQz4rzEdX6B7f3xmBD9SRXqaU="
   file: "boo-latest.zip"
   skip_cleanup: true
   on:
